@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 
 // --- CẤU HÌNH ---
-const MAT_KHAU_ADMIN = "123456"; 
+const MAT_KHAU_ADMIN = "050107"; 
 const FILE_LUU_KEY = "data.json"; 
 
 if (!fs.existsSync(FILE_LUU_KEY)) {
@@ -58,7 +58,7 @@ app.get('/', (req, res) => {
 
 app.get('/admin', (req, res) => {
     const data = JSON.parse(fs.readFileSync(FILE_LUU_KEY, 'utf8'));
-    const linkDich = "http://localhost:3000/getkey?token=" + data.token;
+    const linkDich = "https://web-keymod-freefire.onrender.com/getkey?token=" + data.token;
     
     res.send(`
         <!DOCTYPE html><html lang="vi">${commonHead}
