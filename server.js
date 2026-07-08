@@ -22,7 +22,7 @@ const commonHead = `
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>HỆ THỐNG KRY MOD</title>
+        <title>HỆ THỐNG HMT MOD</title>
         <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
         <style>
             body { background-color: #050505; color: #00ffcc; font-family: 'Share Tech Mono', monospace; text-align: center; margin: 0; padding-top: 50px; background-image: radial-gradient(circle, #1a1a1a 1px, transparent 1px); background-size: 25px 25px; }
