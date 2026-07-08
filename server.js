@@ -105,7 +105,7 @@ app.get('/getkey', (req, res) => {
                 <input type="text" value="${data.key}" readonly style="font-size: 24px; color: #fff; font-weight: bold;" onclick="this.select()">
                 <div class="warning-box">
                     <strong style="color: #ff003c;">[!] KÍCH HOẠT CHUỖI TỰ HỦY:</strong><br>
-                    > Key này sẽ hết hạn sau đúng 12 giờ nữa.<br>
+                    > Key này sẽ hết hạn sau đúng 24 giờ nữa.<br>
                     > Đường link này là tạm thời và sẽ tự hủy ở lần cập nhật tới.<br>
                     > Tuyệt đối không lưu lại trang này. Hãy quay lại trang chủ để lấy Key mới khi cần.
                 </div>
