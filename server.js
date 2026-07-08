@@ -6,7 +6,7 @@ const app = express();
 app.use(express.urlencoded({ extended: true }));
 
 // --- CẤU HÌNH ---
-const MAT_KHAU_ADMIN = "050107"; 
+const MAT_KHAU_ADMIN = "05012007"; 
 const FILE_LUU_KEY = "data.json"; 
 
 if (!fs.existsSync(FILE_LUU_KEY)) {
