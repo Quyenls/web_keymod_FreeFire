@@ -27,7 +27,7 @@ const commonHead = `
         <style>
             body { background-color: #050505; color: #00ffcc; font-family: 'Share Tech Mono', monospace; text-align: center; margin: 0; padding-top: 50px; background-image: radial-gradient(circle, #1a1a1a 1px, transparent 1px); background-size: 25px 25px; }
             .box { background: rgba(10, 10, 10, 0.85); border: 1px solid #00ffcc; box-shadow: 0 0 15px rgba(0, 255, 204, 0.2); max-width: 500px; margin: 0 auto; padding: 40px; border-radius: 8px; position: relative; }
-            .box::before { content: "[ MENU KRY MOD ]"; position: absolute; top: -10px; left: 20px; background: #050505; padding: 0 10px; font-size: 14px; color: #00ffcc; }
+            .box::before { content: "[ MENU HMT MOD ]"; position: absolute; top: -10px; left: 20px; background: #050505; padding: 0 10px; font-size: 14px; color: #00ffcc; }
             h1, h2 { text-transform: uppercase; letter-spacing: 2px; margin-top: 0; }
             .status-text { color: #ff003c; font-size: 14px; margin-bottom: 25px; }
             .btn { background: transparent; color: #00ffcc; border: 2px solid #00ffcc; padding: 12px 24px; font-family: 'Share Tech Mono', monospace; font-size: 16px; cursor: pointer; text-transform: uppercase; transition: 0.3s; text-decoration: none; display: inline-block; width: 80%; }
